@@ -1,5 +1,5 @@
 PRGNAM="clksignal-roms"
-VERSION="20230114"
+VERSION="20230716"
 HOMEPAGE="https://slackware.uk/~urchlay/src/clksignal-roms.txt"
 DOWNLOAD="http://amigas.ru/amiftp/AmiFTP/Amiga%20Kickstart%20Roms%20-%20Complete%20-%20TOSEC%20v0.04/KS-ROMs/Kickstart%20v1.3%20rev%2034.5%20%281987%29%28Commodore%29%28A500-A1000-A2000-CDTV%29.rom \
           http://cominf0.narod.ru/mess123/apple2e.zip \
@@ -21,11 +21,11 @@ DOWNLOAD="http://amigas.ru/amiftp/AmiFTP/Amiga%20Kickstart%20Roms%20-%20Complete
           http://www.avtandil.narod.ru/tos/tos104uk.zip \
           https://slackware.uk/~urchlay/src/apple2gs.zip \
           https://slackware.uk/~urchlay/src/ep64.zip \
-          https://github.com/libretro/vice-libretro/raw/master/vice/data/DRIVES/dos1540\
-          https://github.com/libretro/vice-libretro/raw/master/vice/data/DRIVES/dos1541\
-          https://github.com/libretro/vice-libretro/raw/master/vice/data/VIC20/basic \
-          https://github.com/libretro/vice-libretro/raw/master/vice/data/VIC20/chargen \
-          https://github.com/libretro/vice-libretro/raw/master/vice/data/VIC20/kernal \
+          https://github.com/libretro/vice-libretro/raw/099ddc95da816d78b22f361dce081e5e2019ad5a/vice/data/DRIVES/dos1540 \
+          https://github.com/libretro/vice-libretro/raw/099ddc95da816d78b22f361dce081e5e2019ad5a/vice/data/DRIVES/dos1541 \
+          https://github.com/libretro/vice-libretro/raw/099ddc95da816d78b22f361dce081e5e2019ad5a/vice/data/VIC20/basic \
+          https://github.com/libretro/vice-libretro/raw/099ddc95da816d78b22f361dce081e5e2019ad5a/vice/data/VIC20/chargen \
+          https://github.com/libretro/vice-libretro/raw/099ddc95da816d78b22f361dce081e5e2019ad5a/vice/data/VIC20/kernal \
           http://cominf0.narod.ru/mess123/macplus.zip \
           http://cominf0.narod.ru/mess123/mac512k.zip \
           http://cominf0.narod.ru/mess123/mac128k.zip \
