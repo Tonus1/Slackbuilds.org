@@ -27,8 +27,8 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=open-simh
 SRCNAM=simh
-VERSION=${VERSION:-8b6c0b6}
-COMMIT=${COMMIT:-8b6c0b60c9e9d1d4eae62b52391b132f0450447c}
+VERSION=${VERSION:-5407544}
+COMMIT=${COMMIT:-540754472817d6f33813020dacaec75c1f310580}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -84,6 +84,8 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
+# make -j1 BIN/vax
+# make -j1 BIN/pdp11
 make -j1 all
 
 mkdir -p $PKG/opt/$PRGNAM/bin
