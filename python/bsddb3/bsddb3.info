@@ -1,4 +1,4 @@
-PRGNAM="bsddb3"
+PRGNAM="python3-bsddb3"
 VERSION="6.2.9"
 HOMEPAGE="https://www.jcea.es/programacion/pybsddb.htm"
 DOWNLOAD="https://files.pythonhosted.org/packages/source/b/bsddb3/bsddb3-6.2.6.tar.gz"
